@@ -1,8 +1,101 @@
+
 <html>
+  <style>
+    html, body, div {
+      margin: 0;
+      padding: 0;
+    }
+    .NamePlate {
+      width: 100%;
+      height: 50%;
+      background-image: url("image.jpg");
+      background-size: cover;
+      background-position: 50% 50%, center;
+      background-color: #000000AA;
+      background-blend-mode: multiply;
+    }
+    .title {
+      text-align: center;
+      font-size: 100pt;
+      color: white;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    .game_wrapper {
+      width: 100%;
+      height: auto;
+    }
+    .game {
+      color: white;
+      text-align: center;
+      width: 20%;
+      height: 25%;
+      overflow: hidden;
+      float: left;
+      background-size: cover;
+      background-color: #000000AA;
+      background-blend-mode: multiply;
+    }
+    .get_your_coffee{
+      background-image: url("images/get_your_coffee.png");
+    }
+    .bonkers{
+      background-image: url("images/bonkers.png");
+    }
+    .need_not_you{
+      background-image: url("images/need_not_you.png");
+    }
+    .glass_half_full{
+      background-image: url("images/glass_half_full.png");
+    }
+    .angry_crab{
+      background-image: url("images/angry_crab.png");
+    }
+    .escape_the_date{
+      background-image: url("images/escape_the_date.png");
+    }
+    .footer {
+      width: 100%;
+      clear: left;
+    }
+  </style>
 <body>
   <div class="NamePlate">
-    <font>Raccoon Formality</font>
+    <div class="title">Raccoon Formality</div>
   </div>
-<a rel="me" href="https://mastodon.gamedev.place/@raccoonformality">Mastodon</a>
+
+  <div class="game_wrapper">
+    <a href="https://raccoon-formality.itch.io/get-your-coffee" target="_blank" rel="noopener noreferrer">
+    <div class="game get_your_coffee">
+      get your coffee
+    </div>
+    </a>
+
+    <div class="game bonkers">
+      bonkers
+    </div>
+
+    <div class="game need_not_you">
+      need not you
+    </div>
+
+    <div class="game glass_half_full">
+      glass half full
+    </div>
+
+    <div class="game angry_crab">
+      angry crab
+    </div>
+
+    <div class="game escape_the_date">
+      escape the date
+    </div>
+  </div>
+  <div class="footer">
+  <footer>
+    <a rel="me" href="https://mastodon.gamedev.place/@raccoonformality">Mastodon</a> • <a rel="me" href="https://raccoon-formality.itch.io/">itch</a> 
+  </footer>
+</div>
 </body>
 </html>
