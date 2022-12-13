@@ -1,6 +1,9 @@
 
 <html>
   <style>
+    html{
+      background-color: black;
+    }
     html, body, div {
       margin: 0;
       padding: 0;
@@ -23,8 +26,9 @@
       transform: translateY(-50%);
     }
     .game_wrapper {
-      width: 100%;
+      width: 80%;
       height: auto;
+      margin-left:10%;
     }
     .game {
       width: 100%;
@@ -35,16 +39,34 @@
       width:fit-content;
       float:left;
     }
+    .game_text {
+      margin:20px;
+      margin-left: 335;
+      width:fit-content;
+    }
+    .game_title {
+      color: white;
+      font-size: 24pt;
+      display:inline-block;
+      margin-bottom: 10px;
+    }
+    .game_blurb {
+      top: 50px;
+      color: white;
+      font-size: 16pt;
+    }
     img {
       width: 315px;
       height: 250px;
     }
     .footer {
-      width: 100%;
-      display: flex;
+      width:fit-content;
+      padding: 5px;
+      border-radius: 10px;
+      margin: 8px;
       clear: left;
       position: sticky;
-      bottom: 0;
+      bottom: 8px;
       background-color: #ffffff;
     }
   </style>
