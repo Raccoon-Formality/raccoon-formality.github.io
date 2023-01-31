@@ -128,12 +128,12 @@
     }
 
     .dark-mode {
-            background-color: black;
-            color: white !important;
-    }
+        background-color: #181A1B;
+        color: #e8e6e3;
+        }
 
     .dark-mode a {
-            color: white !important;
+      color: #3391ff;
     }
     .dark-mode span {
             color: white !important;
@@ -158,8 +158,8 @@
   <div class="blog_holder">
     <h1>Blog archive:</h1>
   <ul>
-    <li>1/31/2023 - <a href="pages/blog/1-31-2023/political-awakening/index.html">Political Awakening</a><span style="float: right; text-align: right;">politics | ☭</span></li>
-    <li>1/30/2023 - <a href="pages/blog/1-30-2023/index.html">Creating a blog!</a><span style="float: right; text-align: right;">general | 🦝</span></li>
+    <li>1/31/2023 - <a href="pages/blog/1-31-2023/political-awakening/index.html">Political Awakening</a><div style="float: right; text-align: left;">☭ | politics</div></li>
+    <li>1/30/2023 - <a href="pages/blog/1-30-2023/index.html">Creating a blog!</a><span style="float: right; text-align: left;">🦝 | general</span></li>
 
   </ul>
   </div>
@@ -241,9 +241,9 @@
 
   <div class="footer">
   <footer>
-    <a rel="me" href="https://mastodon.gamedev.place/@raccoonformality">Mastodon</a> <<br>
-    <a rel="me" href="https://raccoon-formality.itch.io/">itch</a> <<br>
-    <a rel="me" href="https://github.com/Raccoon-Formality">GitHub</a> <<br>
+    <span><a rel="me" href="https://mastodon.gamedev.place/@raccoonformality">Mastodon</a> <</span><br>
+    <span><a rel="me" href="https://raccoon-formality.itch.io/">itch</a> <</span><br>
+    <span><a rel="me" href="https://github.com/Raccoon-Formality">GitHub</a> <</span><br><br>
       <button onclick="myFunction()">Toggle dark mode</button>
   </footer>
 </div>
@@ -253,5 +253,7 @@
      var element = document.body;
      element.classList.toggle("dark-mode");
   }
+
+  myFunction()
 </script>
 </html>
