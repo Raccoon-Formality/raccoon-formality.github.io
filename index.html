@@ -117,6 +117,19 @@
     .footer a {
       color: black;
     }
+
+    .dark-mode {
+            background-color: black;
+            color: white !important;
+    }
+
+    .dark-mode a {
+            color: white !important;
+    }
+    .dark-mode span {
+            color: white !important;
+    }
+
   </style>
 </head>
 
@@ -218,8 +231,15 @@
   <footer>
     <a rel="me" href="https://mastodon.gamedev.place/@raccoonformality">Mastodon</a> <<br>
     <a rel="me" href="https://raccoon-formality.itch.io/">itch</a> <<br>
-    <a rel="me" href="https://github.com/Raccoon-Formality">GitHub</a> <
+    <a rel="me" href="https://github.com/Raccoon-Formality">GitHub</a> <<br>
+      <button onclick="myFunction()">Toggle dark mode</button>
   </footer>
 </div>
 </body>
+<script>
+  function myFunction() {
+     var element = document.body;
+     element.classList.toggle("dark-mode");
+  }
+</script>
 </html>
