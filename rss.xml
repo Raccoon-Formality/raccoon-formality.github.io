@@ -5,13 +5,12 @@
                 <title>Raccoon Formality</title>
                 <description>Game Developer</description>
                 <link>https://raccoonformality.com</link>
-                <lastBuildDate>Sun, 30 Jul 2023 6:52:00 EST</lastBuildDate>
-                <managingEditor>Matthew</managingEditor>
+                <lastBuildDate>Sun, 30 Jul 2023 07:09:00 EST</lastBuildDate>
 
                 <item>
                         <title>Test Article</title>
                         <link>https://raccoonformality.com/blog/2023/07/30/</link>
-                        <pubDate>Sun, 30 Jul 2023 6:52:02 EST</pubDate>
+                        <pubDate>Sun, 30 Jul 2023 07:09:02 EST</pubDate>
                         <description>Test description</description>
                         <guid isPermaLink="false">tag:raccoonformality.com,2023:rss.1</guid>
                 </item>
