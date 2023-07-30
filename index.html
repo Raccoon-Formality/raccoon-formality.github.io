@@ -1,259 +1,190 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-EEE3T13NGB"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <title>Raccoon Formality</title>
 
-  gtag('config', 'G-EEE3T13NGB');
-</script>
-  
-  <link rel="icon" type="image/jpg" href="images/racc.jpg"/>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
 
-  <style>
-    @font-face {
-      font-family: 'Roboto';
-      src: url('fonts/Roboto/Roboto-Regular.ttf');
-    }
+    <!-- Custom CSS for the '3 Col Portfolio' Template -->
+    <link href="css/3-col-portfolio.css" rel="stylesheet">
+  </head>
 
-    @font-face {
-      font-family: 'IBM Plex Mono';
-      src: url('fonts/IBM_Plex_Mono/IBMPlexMono-Regular.ttf');
-    }
+  <body>
 
-    @font-face {
-      font-family: 'Times New Roman';
-      src: url('fonts/TimesNewRoman.ttf');
-    }
+    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="">Raccoon Formality</a>
+        </div>
 
-    html{
-      /*background-color: black;*/
-      font-family: 'Times New Roman';
-    }
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
 
-    html, body, div {
-      margin: 0;
-      padding: 0;
-    }
-    .NamePlate {
-      letter-spacing: 0.4rem;
-      width: 80%;
-      margin-left: 10%;
-      height: 50%;
-      min-width: 666px;
-      background-image: url("image0.jpg");
-      background-size: cover;
-      background-position: 50% 50%, center;
-      background-color: #000000AA;
-      background-blend-mode: multiply;
-    }
-    .title {
-      text-align: center;
-      font-size: 60pt;
-      color: white;
-      position: relative;
-      top: 50%;
-      transform: translateY(-50%);
-    }
-    .game_wrapper {
-      width: 80%;
-      height: auto;
-      margin-left:10%;
-    }
-    .game {
-      width: 100%;
-      height: fit-content;
-      float:left;
-      margin-top: 20px;
-    }
-    .game_image {
-      width:fit-content;
-      float:left;
-    }
-    .game_text {
-      margin:20px;
-      margin-left: 335;
-      width:fit-content;
-    }
-    .game_title a {
-      color: black;
-    }
-    .game_title {
-      color: black;
-      font-size: xx-large;
-      display:inline-block;
-      min-width: 360px;
-      margin-bottom: 10px;
-    }
-    
-    .game_blurb {
-      top: 50px;
-      color: black;
-      min-width: 360px;
-      font-size: large;
-    }
-    img {
-      width: 315px;
-      height: 250px;
-    }
+    <div class="container">
 
-    .blog_holder {
-      float: center;
-      width: 55%;
-      margin-left: 20%;
-    }
-    .blog_holder li{
-      padding-top: 5px;
-      font-size: 14pt;
-    }
+      <div class="row">
 
-    .footer {
-      width:fit-content;
-      padding: 5px;
-      font-size: small;
-      /*border-radius: 10px;*/
-      margin: 8px;
-      clear: left;
-      position: sticky;
-      bottom: 8px;
-      float: right;
-      text-align: right;
-      color: black;
-    }
-    .footer a {
-      color: black;
-    }
+        <div class="col-lg-12">
+          <h1 class="page-header">Games <small></small></h1>
+        </div>
 
-    .dark-mode {
-        background-color: #181A1B;
-        color: #e8e6e3;
-        }
-
-    .dark-mode a {
-      color: #3391ff;
-    }
-    .dark-mode span {
-            color: white !important;
-    }
-
-  </style>
-</head>
-
-
-
-<body>
-  <div class="NamePlate">
-    <div class="title">Raccoon Formality</div>
-  </div>
-
-  
-  <div style="margin-left: 10%; margin-top: 10px; margin-bottom: 10px; width: 80%; float: left;">
-    <hr>
-  </div>
-
-
-  <div class="blog_holder">
-    <h1>Blog archive:</h1>
-  <ul>
-    <li>1/31/2023 - <a href="pages/blog/1-31-2023/political-awakening/index.html">Political Awakening</a><div style="float: right; text-align: left;">☭ | politics</div></li>
-    <li>1/30/2023 - <a href="pages/blog/1-30-2023/index.html">Creating a blog!</a><span style="float: right; text-align: left;">🦝 | general</span></li>
-
-  </ul>
-  </div>
-
-  <div style="margin-left: 10%; margin-top: 10px; width: 80%; float: left;">
-    <hr>
-  </div>
-
-  <div class="game_wrapper">
-    
-    <h1>Games:</h1>
-    
-    <div class="game get_your_coffee">
-      <div class="game_image">
-      <img src="images/get_your_coffee.png">
       </div>
-      <div class="game_text">
-      <span class="game_title"><a href="https://raccoon-formality.itch.io/get-your-coffee" target="_blank" rel="noopener noreferrer">Get Your Coffee</a></span><br>
-      <span class="game_blurb">Have you ever wanted to send out coffee to angry, caffeine addict doggo men with swords? Want to do that to some lofi hip-hop music? Well, I've made the game for you. So chill out, grab some coffee, and set the game to fullscreen for the best experience! On mobile, there's a white square anchor to aim so you don't have to reach to the top of your screen on a big phone. Have a great rest of your day! :)</span>
-      </div>
-    </div>
 
-    <div class="game bonkers">
-      <div class="game_image">
-      <img src="images/bonkers.png">
-      </div>
-      <div class="game_text">
-      <span class="game_title"><a href="https://raccoon-formality.itch.io/bonkers" target="_blank" rel="noopener noreferrer">Bonkers</a></span><br>
-      <span class="game_blurb">I made this game in around 2 hours because I was bored. If you are getting lag on the web build, please consider downloading the executable. I hope you enjoy and have a great rest of your day! :)</span>
-      </div>
-    </div>
+      <div class="row">
 
-    <div class="game need_not_you">
-      <div class="game_image">
-      <img src="images/need_not_you.png">
-      </div>
-      <div class="game_text">
-      <span class="game_title"><a href="https://raccoon-formality.itch.io/need-not-you" target="_blank" rel="noopener noreferrer">Need Not You</a></span>
-      </div>
-    </div>
+        <div class="col-md-4 portfolio-item">
+          <a href="https://raccoon-formality.itch.io/noodles-and-love"><img class="img-responsive" src="images/noodles_and_love.gif" width="700px"></a>
+          <h3><a href="https://raccoon-formality.itch.io/noodles-and-love">Noodles & Love</a></h3>
+          <p>Gay furry visual novel for the Panic Playdate handheld.</p>
+        </div>
 
-    <div class="game glass_half_full">
-      <div class="game_image">
-      <img src="images/glass_half_full.png">
       </div>
-      <div class="game_text">
-      <span class="game_title"><a href="https://raccoon-formality.itch.io/glass-half-full" target="_blank" rel="noopener noreferrer">Glass Half Full</a></span>
-    </div>
-    </div>
+      <div class="row">
 
-    <div class="game angry_crab">
-      <div class="game_image">
-      <img src="images/angry_crab.png">
+        <div class="col-md-4 portfolio-item">
+          <a href="https://raccoon-formality.itch.io/subby-v-squid"><img class="img-responsive" src="images/subby_v_squid.png" width="700px"></a>
+          <h3><a href="https://raccoon-formality.itch.io/subby-v-squid">Subby V. Squid</a></h3>
+          <p>Simple game I made for the PlayJam.</p>
+        </div>
+
+        <div class="col-md-4 portfolio-item">
+          <a href="https://raccoon-formality.itch.io/crankout"><img class="img-responsive" src="images/crankout.png" width="700px"></a>
+          <h3><a href="https://raccoon-formality.itch.io/crankout">CrankOut</a></h3>
+          <p>Simple breakout clone I made to learn the Playdate SDK and get use to it in preparation for the PlayJam.</p>
+        </div>
+
+        <div class="col-md-4 portfolio-item">
+          <a href="https://raccoon-formality.itch.io/last-chance"><img class="img-responsive" src="images/last_chance.gif" width="700px"></a>
+          <h3><a href="https://raccoon-formality.itch.io/last-chance">Last Chance</a></h3>
+          <p>Short game made for the Bullet Hell Game Jam 2023.</p>
+        </div>
+
       </div>
-      <div class="game_text">
-      <span class="game_title"><a href="https://raccoon-formality.itch.io/angry-crab" target="_blank" rel="noopener noreferrer">Angry Crab</a></span>
-    </div>
-    </div>
+      <div class="row">
 
-    <div class="game escape_the_date">
-      <div class="game_image">
-      <img src="images/escape_the_date.png">
+        <div class="col-md-4 portfolio-item">
+          <a href="https://raccoon-formality.itch.io/waterlocket"><img class="img-responsive" src="images/waterlocket.png" width="700px"></a>
+          <h3><a href="https://raccoon-formality.itch.io/waterlocket">Waterlocket</a></h3>
+          <p>A short game demo I made to learn the complexities of 3D gamedev.</p>
+        </div>
+
+        <div class="col-md-4 portfolio-item">
+          <a href="https://raccoon-formality.itch.io/void-in-capital"><img class="img-responsive" src="images/void_in_capital.png" width="700px"></a>
+          <h3><a href="https://raccoon-formality.itch.io/void-in-capital">Void In Capital</a></h3>
+          <p>You must go to a nearby village to get everything you can.</p>
+        </div>
+
+        <div class="col-md-4 portfolio-item">
+          <a href="https://raccoon-formality.itch.io/get-your-coffee"><img class="img-responsive" src="images/get_your_coffee.png" width="700px"></a>
+          <h3><a href="https://raccoon-formality.itch.io/get-your-coffee">Get Your Coffee</a></h3>
+          <p>Get your coffee.</p>
+        </div>
+
       </div>
-      <div class="game_text">
-      <span class="game_title"><a href="https://raccoon-formality.itch.io/escape-the-date" target="_blank" rel="noopener noreferrer">Escape The Date</a></span>
-    </div>
-    </div>
+      <div class="row">
 
-    <div class="game slime_jumper">
-      <div class="game_image">
-      <img src="images/slime_jumper.png">
+        <div class="col-md-4 portfolio-item">
+          <a href="https://raccoon-formality.itch.io/bonkers"><img class="img-responsive" src="images/bonkers.png" width="700px"></a>
+          <h3><a href="https://raccoon-formality.itch.io/bonkers">Bonkers</a></h3>
+          <p>I made this game in around 2 hours because I was bored.</p>
+        </div>
+
+        <div class="col-md-4 portfolio-item">
+          <a href="https://raccoon-formality.itch.io/need-not-you"><img class="img-responsive" src="images/need_not_you.png" width="700px"></a>
+          <h3><a href="https://raccoon-formality.itch.io/need-not-you">Need Not You</a></h3>
+          <p>Your love means nothing and there are no secrets.</p>
+        </div>
+
+        <div class="col-md-4 portfolio-item">
+          <a href="https://raccoon-formality.itch.io/glass-half-full"><img class="img-responsive" src="images/glass_half_full.gif" width="700px"></a>
+          <h3><a href="https://raccoon-formality.itch.io/glass-half-full">Glass Half Full</a></h3>
+          <p>A short romance story about two men on a business trip.</p>
+        </div>
+
       </div>
-      <div class="game_text">
-      <span class="game_title"><a href="https://raccoon-formality.itch.io/slime-jumper" target="_blank" rel="noopener noreferrer">Slime Jumper</a></span>
-    </div>
-    </div>
-    
-  </div>
+        <div class="row">
 
-  <div class="footer">
-  <footer>
-    <span><a rel="me" href="https://mastodon.gamedev.place/@raccoonformality">Mastodon</a> <</span><br>
-    <span><a rel="me" href="https://raccoon-formality.itch.io/">itch</a> <</span><br>
-    <span><a rel="me" href="https://github.com/Raccoon-Formality">GitHub</a> <</span><br><br>
-      <button onclick="myFunction()">Toggle dark mode</button>
-  </footer>
-</div>
-</body>
-<script>
-  function myFunction() {
-     var element = document.body;
-     element.classList.toggle("dark-mode");
-  }
+        <div class="col-md-4 portfolio-item">
+          <a href="https://raccoon-formality.itch.io/angry-crab"><img class="img-responsive" src="images/angry_crab.png" width="700px"></a>
+          <h3><a href="https://raccoon-formality.itch.io/angry-crab">Angry Crab</a></h3>
+          <p>I made this game because I was angry.</p>
+        </div>
 
-  myFunction()
-</script>
+        <div class="col-md-4 portfolio-item">
+          <a href="https://raccoon-formality.itch.io/escape-the-date"><img class="img-responsive" src="images/escape_the_date.png" width="700px"></a>
+          <h3><a href="https://raccoon-formality.itch.io/escape-the-date">Escape The Date</a></h3>
+          <p>A bullet hell dating sim.</p>
+        </div>
+
+        <div class="col-md-4 portfolio-item">
+          <a href="https://raccoon-formality.itch.io/slime-jumper"><img class="img-responsive" src="images/slime_jumper.png" width="700px"></a>
+          <h3><a href="https://raccoon-formality.itch.io/slime-jumper">Slime Jumper</a></h3>
+          <p>My first 2d platformer and I couldn't be prouder.</p>
+        </div>
+
+      </div>
+      <!--
+      <hr>
+
+      <div class="row text-center">
+        
+        <div class="col-lg-12">
+          <ul class="pagination">
+            <li><a href="#">&laquo;</a></li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">&raquo;</a></li>
+          </ul>        
+        </div>
+
+      </div>
+      -->
+    </div><!-- /.container -->
+
+    <div class="container">
+
+      <hr>
+
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            <p>Copyright &copy; Company <span id="getCurrentDate"></span></p>
+          </div>
+        </div>
+      </footer>
+      
+    </div><!-- /.container -->
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript">
+      var dt = new Date();
+      document.getElementById('getCurrentDate').innerHTML = dt.getFullYear();
+    </script>
+  </body>
+
 </html>
