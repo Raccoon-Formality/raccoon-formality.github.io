@@ -1,0 +1,80 @@
+<html>
+    <head>
+
+
+        <link rel="icon" type="image/jpg" href="../../../../images/racc.jpg"/>
+
+        <style>
+            @font-face {
+                font-family: 'Times New Roman';
+                src: url('fonts/TimesNewRoman.ttf');
+            }
+
+            html {
+                font-family: 'Times New Roman';
+            }
+
+            @media only screen and (max-width: 1000px) {
+              body {
+                width: 100%;
+                margin-left: 0;
+                zoom: 150%;
+              }
+            }
+            @media only screen and (min-width: 1000px) {
+              body {
+                width: 60%;
+                margin-left: 20%;
+              }
+            }
+
+            .content {
+                padding: 15px 5%;
+            }
+
+            img {
+                width: 100%;
+            }
+
+            .dark-mode {
+            background-color: #181A1B;
+            color: #e8e6e3;
+            }
+
+            .dark-mode a {
+            color: #3391ff;
+            }
+        </style>
+    </head>
+
+
+    <body>
+        <div class="content">
+        <h1>How much money have I made?</h1>
+        <h3>Let's talk about the finances for a hobbiest gamedev.</h3>
+        <p><a href="https://raccoon-formality.github.io/">By Matthew (7/31/2023)</a><button onclick="myFunction()" style="float: right;">Toggle dark mode</button></p>
+        
+        
+        <p>​I have been making games for about a year now and haven't been very focused on making money. It's mainly been a hobby and a "if I get donations, hey that cool, but I don't expect that" kind of thing. I am currently working on my 14th game which I will be selling for an amount, so before that I would like to make a breakdown of how much I have made.</p>
+        <p><h2>So, not to waste your time, I have made $78.36 net, which includes $33.24 from Itch, $32.92 Ko-Fi, and $12.20 Patreon donations as of writing this article.</h2></p>
+        <p>Here's is the breakdown for each game I have made:</p>
+
+        <img src="images/money.png" alt="my full list of analytics on itch.io" title="my full list of analytics on itch.io">
+        <a><em>my full list of analytics on itch.io</em></a>
+        <br>
+        
+        <p>What can we learn from this?</p>
+        <p>If you keep working on something you are passionate about and of a niche catches on, they are willing to fuel your passionate.</p>
+    </div>
+    </body>
+
+    
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+myFunction()
+</script>
+</html>
