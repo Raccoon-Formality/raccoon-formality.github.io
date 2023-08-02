@@ -37,6 +37,18 @@
 
     <!-- Custom CSS for the '3 Col Portfolio' Template -->
     <link href="css/3-col-portfolio.css" rel="stylesheet">
+
+    <style>
+
+          .dark-mode {
+            background-color: #181A1B;
+            color: #e8e6e3;
+          }
+
+            .dark-mode a {
+            color: #3391ff;
+          }
+    </style>
   </head>
 
   <body>
@@ -165,6 +177,7 @@
           <div class="col-lg-12">
             <p>Copyright &copy; Raccoon Formality <span id="getCurrentDate"></span></p>
           </div>
+          <button style="float:right;" onclick="myFunction()" style="float: right;">Toggle dark mode</button>
         </div>
       </footer>
       
@@ -176,6 +189,14 @@
     <script type="text/javascript">
       var dt = new Date();
       document.getElementById('getCurrentDate').innerHTML = dt.getFullYear();
+
+
+      function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+myFunction()
+
     </script>
   </body>
 
