@@ -214,17 +214,19 @@
     </div><!-- /.container -->
 
     <!-- JavaScript -->
+    <script>
+      function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+     }
+     
+     myFunction()
+     </script>
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
     <script type="text/javascript">
       var dt = new Date();
       document.getElementById('getCurrentDate').innerHTML = dt.getFullYear();
-
-
-      function myFunction() {
-   var element = document.body;
-   element.classList.toggle("dark-mode");
-}
     </script>
   </body>
 
