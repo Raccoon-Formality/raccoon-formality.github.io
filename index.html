@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/jpg" href="images/racc.jpg"/>
+<!-- HTML Meta Tags -->
+<title>Raccoon Formality</title>
+<meta name="description" content="game developer">
+
+<!-- Google / Search Engine Tags -->
+<meta itemprop="name" content="Raccoon Formality">
+<meta itemprop="description" content="game developer">
+<meta itemprop="image" content="https://raccoonformality.com/images/racc.jpg">
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://raccoonformality.com">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Raccoon Formality">
+<meta property="og:description" content="game developer">
+<meta property="og:image" content="https://raccoonformality.com/images/racc.jpg">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Raccoon Formality">
+<meta name="twitter:description" content="game developer">
+<meta name="twitter:image" content="https://raccoonformality.com/images/racc.jpg">
+    <title>Raccoon Formality</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+<style>
+@font-face {
+    font-family: RaccoonSerif;
+    src: url(font/HelveticaBold.ttf);
+    font-weight: normal;
+}
+
+* {
+    font-family: RaccoonSerif;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+body {
+width: 90%;
+margin-left: 0;
+zoom: 150%;
+margin-left: 5%;
+}
+.text {
+    width: 100%;
+}
+.nav .profile {
+    float:center;
+}
+.nav .links {
+    float:center;
+    gap: 1em;
+}
+.nav {
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 1200px) {
+body {
+width: 60%;
+margin-left: 20%;
+}
+.text {
+    width: 60%;
+}
+.nav .profile {
+    float:left;
+}
+.nav .links {
+    float:right;
+    gap: 2em;
+}
+
+}
+
+
+
+.logo {
+width: 40px;
+height: 40px;
+vertical-align: middle !important;
+transition: all .2s ease-in-out; 
+}
+.logo:hover { 
+transform: scale(1.25) rotate(10deg); 
+}
+
+.nav {
+  justify-content: space-between;
+}
+
+.nav .profile img {
+  border-radius: 50%;
+  height: 100px;
+}
+
+.nav .profile,
+.nav .links {
+    margin-top: 15px;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav .profile {
+gap: 2em;
+}
+
+.nav .links {
+    padding: 15px;
+    
+
+  border-radius: 10px;
+    background-color: black;
+}
+
+.logo {
+    filter: invert(1);
+}
+
+.nav .profile span {
+    font-size: 36pt;
+    line-height: normal;
+    text-align: center;
+}
+
+.item {
+    background-size: cover;
+    height: 720px;
+}
+.item .front {
+height: 100% !important;
+object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item h3 {
+    background-color: black;
+    width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+.item h1 {
+    background-color: black;
+    width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.text ul {
+    display: inline-block;
+  text-align: left;
+}
+
+.nav, .tagline {
+    color: black;
+}
+
+.text {
+    color: black;
+}
+</style>
+<body>
+
+<div class="nav">
+    <div class="profile">
+        <img title="Hello" src="images/racc.jpg" alt="Profile icon of Raccoon Formality" />
+        <span>Raccoon Formality</span>
+    </div>
+    <div class="links">
+        <a alt="mastodon" href="https://tech.lgbt/@raccoonformality" target="_blank" rel="noopener noreferrer"><img class="logo" src="logos/logo-black.svg"></a>
+        <a alt="itch.io" href="https://raccoon-formality.itch.io/" target="_blank" rel="noopener noreferrer"><img class="logo" src="logos/itchio-textless-black.svg"></a>
+        <a alt="youtube" href="https://www.youtube.com/@raccoon-formality" target="_blank" rel="noopener noreferrer"><img class="logo" src="logos/youtube.svg"></a>
+        <a alt="ko-fi" href="https://ko-fi.com/raccoonformality" target="_blank" rel="noopener noreferrer"><img class="logo" src="logos/ko-fi.svg"></a>
+        <a alt="patreon" href="https://www.patreon.com/RaccoonFormality" target="_blank" rel="noopener noreferrer"><img class="logo" src="logos/patreon.svg"></a>
+        <a alt="github" href="https://github.com/Raccoon-Formality" target="_blank" rel="noopener noreferrer"><img class="logo" src="logos/github.png"></a>
+    </div>
+</div>
+<!--
+<div class="top">
+<img src="images/racc.jpg" class="icon">
+<span class="name">Raccoon Formality</span>
+    
+</div>
+-->
+<div class="tagline" style="width: 100%; float:left;">
+<h1 style="text-align: center;">2024 is the year of the raccoon 🦝</h1>
+<hr>
+</div>
+<div class="container" style="width:100%;">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+  
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <a href="https://raccoon-formality.itch.io/scaling-up-industries" target="_blank" rel="noopener noreferrer">
+        <div class="item active" style="background-image: url('images/sui-promo.PNG');">
+            <img src="images/sui-promo.PNG" class="front">
+            <div class="carousel-caption">
+                <h1>Scaling Up Industries</h1>
+                <h3>Sci-fi FPS that will blow your socks off!</h3>
+            </div>
+            
+        </a>
+        </div>
+  
+        <div class="item" style="background-image: url('screenshots/ptm.png');">
+            
+        <a href="https://raccoon-formality.itch.io/parking-ticket-mayhem" target="_blank" rel="noopener noreferrer">
+            <img src="screenshots/ptm.png" class="front">
+            <div class="carousel-caption">
+                <h1>Parking Ticket Mayhem</h1>
+                <h3>Digital rage room about getting a parking ticket.</h3>
+            </div>
+        </a>
+        </div>
+      
+        <div class="item" style="background-image: url('screenshots/ht.png');">
+            
+        <a href="https://raccoon-formality.itch.io/heavy-trucking" target="_blank" rel="noopener noreferrer">
+          <img src="screenshots/ht.png" class="front">
+            <div class="carousel-caption">
+                <h1>Heavy Trucking</h1>
+                <h3>Trucking sim for the Panic Playdate reminiscent of similar games from the mid-90s.</h3>
+            </div>
+            
+        </a>
+        </div>
+
+        <div class="item" style="background-image: url('screenshots/n&l.png');">
+            
+        <a href="https://raccoon-formality.itch.io/noodles-and-love" target="_blank" rel="noopener noreferrer">
+            <img src="screenshots/n&l.png" class="front">
+              <div class="carousel-caption">
+                  <h1>Noodles & Love</h1>
+                  <h3>Gay furry visual novel dating sim for the Panic Playdate handheld.</h3>
+              </div>
+          </div>
+
+        </a>
+      </div>
+  
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+</div>
+
+<div class="container text" style="float:center;">
+    <hr>
+    <h1 style="text-align: center;">Who?</h1>
+    <h3 style="text-align: center;">Hello, my name is Matthew and I run Raccoon Formality as a hobby project / portfolio piece.</h3>
+    <hr>
+    <h1 style="text-align: center;">What?</h1>
+    <h3 style="text-align: center;">I make video games.<br>or, as I like to call them, "interactive digital art"</h3>
+    <hr>
+    <h1 style="text-align: center;">When?</h1>
+    <h3 style="text-align: center;">My first project released under the Raccoon Formality name was <a href="https://raccoon-formality.itch.io/slime-jumper" target="_blank" rel="noopener noreferrer">Slimer Jumper</a>, released on March 31st, 2022.<br>
+                                    However, I have made projects dating back to <a href="https://neoncangames.itch.io/ball-chain-game" target="_blank" rel="noopener noreferrer">October of 2020.</a></h3>
+    <hr>
+    <h1 style="text-align: center;">Where?</h1>
+    <h3 style="text-align: center;">I release my games on <a href="https://raccoon-formality.itch.io" target="_blank" rel="noopener noreferrer">itch.io</a>, but I also have many other social medias, listed here:</h3>
+
+    <h3 style="text-align: center;">
+        <ul>
+            <li><a href="https://tech.lgbt/@raccoonformality" target="_blank" rel="noopener noreferrer">Mastodon</a></li>
+            <li><a href="https://www.youtube.com/@raccoon-formality" target="_blank" rel="noopener noreferrer">Youtube</a></li>
+            <li><a href="https://ko-fi.com/raccoonformality" target="_blank" rel="noopener noreferrer">Ko-Fi</a></li>
+            <li><a href="https://www.patreon.com/RaccoonFormality" target="_blank" rel="noopener noreferrer">Patreon</a></li>
+            <li><a href="https://github.com/Raccoon-Formality" target="_blank" rel="noopener noreferrer">Github</a></li>
+        </ul>
+    </h3>
+
+    <hr>
+    <h1 style="text-align: center;">Why?</h1>
+    <h3 style="text-align: center;">I don't know, this kind of existential question is what keeps me up at night</h3>
+    <hr>
+    
+<img style="width: 100%;"src="mamagnolia_acresunderconstruction.gif">
+<h1 style="text-align: center;">trans rights 🏳️‍⚧️</h1>
+</div>
+</body>
+</html>
