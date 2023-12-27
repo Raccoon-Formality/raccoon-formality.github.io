@@ -156,7 +156,13 @@ gap: 2em;
     filter: invert(1);
 }
 
-
+.blur {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backdrop-filter: blur(10px);
+    z-index: -1;
+}
 
 .item {
     background-size: cover;
@@ -194,6 +200,8 @@ object-fit: cover;
 
 .text {
     color: black;
+  margin-left: auto;
+  margin-right: auto;
 }
 </style>
 <body>
@@ -237,6 +245,7 @@ object-fit: cover;
       <div class="carousel-inner">
         <a href="https://raccoon-formality.itch.io/scaling-up-industries" target="_blank" rel="noopener noreferrer">
         <div class="item active" style="background-image: url('images/sui-promo.PNG');">
+            <div class="blur"></div>
             <img src="images/sui-promo.PNG" class="front">
             <div class="carousel-caption">
                 <h1>Scaling Up Industries</h1>
@@ -247,17 +256,18 @@ object-fit: cover;
         </div>
   
         <div class="item" style="background-image: url('screenshots/ptm.png');">
-            
-        <a href="https://raccoon-formality.itch.io/parking-ticket-mayhem" target="_blank" rel="noopener noreferrer">
-            <img src="screenshots/ptm.png" class="front">
-            <div class="carousel-caption">
-                <h1>Parking Ticket Mayhem</h1>
-                <h4>Digital rage room about getting a parking ticket.</h4>
-            </div>
-        </a>
+            <div class="blur"></div>
+            <a href="https://raccoon-formality.itch.io/parking-ticket-mayhem" target="_blank" rel="noopener noreferrer">
+                <img src="screenshots/ptm.png" class="front">
+                <div class="carousel-caption">
+                    <h1>Parking Ticket Mayhem</h1>
+                    <h4>Digital rage room about getting a parking ticket.</h4>
+                </div>
+            </a>
         </div>
       
         <div class="item" style="background-image: url('screenshots/ht.png');">
+            <div class="blur"></div>
             
         <a href="https://raccoon-formality.itch.io/heavy-trucking" target="_blank" rel="noopener noreferrer">
           <img src="screenshots/ht.png" class="front">
@@ -270,6 +280,7 @@ object-fit: cover;
         </div>
 
         <div class="item" style="background-image: url('screenshots/n&l.png');">
+            <div class="blur"></div>
             
         <a href="https://raccoon-formality.itch.io/noodles-and-love" target="_blank" rel="noopener noreferrer">
             <img src="screenshots/n&l.png" class="front">
@@ -294,7 +305,8 @@ object-fit: cover;
     </div>
 </div>
 
-<div class="container text" style="float:center;">
+<div style="width: 100%; float:right;">
+<div class="text" style="float:center;">
     <hr>
     <h1 style="text-align: center;">Who?</h1>
     <h3 style="text-align: center;">Hello, my name is Matthew and I run Raccoon Formality as a hobby project / portfolio piece.</h3>
@@ -326,6 +338,7 @@ object-fit: cover;
     
 <img style="width: 100%;"src="mamagnolia_acresunderconstruction.gif">
 <h1 style="text-align: center;">trans rights 🏳️‍⚧️</h1>
+</div>
 </div>
 </body>
 </html>
