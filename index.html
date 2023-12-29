@@ -37,11 +37,19 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family: Sands;
+    src: url(font/HelveticaRoundedBold.ttf);
+    font-weight: normal;
+}
+
 * {
     font-family: RaccoonSerif;
 }
 
-
+.nav .profile span {
+    font-family: Sands !important;
+}
 
 @media only screen and (max-width: 1200px) {
 body {
@@ -128,7 +136,7 @@ transform: scale(1.25) rotate(10deg);
 }
 
 .nav .profile img {
-  border-radius: 50%;
+  border-radius: 0%;
   height: 100px;
 }
 
@@ -210,7 +218,7 @@ object-fit: cover;
 
 <div class="nav">
     <div class="profile">
-        <img title="Hello" src="images/racc.jpg" alt="Profile icon of Raccoon Formality" />
+        <img title="Hello" src="racc.jpeg" alt="Profile icon of Raccoon Formality" />
         <span>Raccoon Formality</span>
     </div>
     <div class="links">
