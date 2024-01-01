@@ -33,13 +33,13 @@
 <style>
 @font-face {
     font-family: RaccoonSerif;
-    src: url(font/HelveticaBold.ttf);
+    src: url(font/Inter-Bold.ttf);
     font-weight: normal;
 }
 
 @font-face {
     font-family: Sands;
-    src: url(font/HelveticaRoundedBold.ttf);
+    src: url(font/Inter-Black.ttf);
     font-weight: normal;
 }
 
@@ -121,13 +121,7 @@ height: 40px;
 
 
 
-.logo {
-vertical-align: middle !important;
-transition: all .2s ease-in-out; 
-}
-.logo:hover { 
-transform: scale(1.25) rotate(10deg); 
-}
+
 
 .nav {
   justify-content: space-between;
@@ -135,8 +129,11 @@ transform: scale(1.25) rotate(10deg);
 }
 
 .nav .profile img {
-  border-radius: 0%;
-  height: 100px;
+  height: 120px;
+  transition: all 0.2s ease-in-out; 
+}
+.nav .profile img:hover { 
+transform: rotate(-15deg); 
 }
 
 .nav .profile,
@@ -161,6 +158,13 @@ gap: 1em;
     flex-wrap: wrap;
 }
 
+.logo {
+vertical-align: middle !important;
+transition: all .2s ease-in-out; 
+}
+.logo:hover { 
+transform: scale(1.25) rotate(10deg); 
+}
 .logo {
     filter: invert(1);
 }
@@ -219,7 +223,7 @@ object-fit: cover;
 
 <div class="nav">
     <div class="profile">
-        <img title="Hello" src="racc.jpeg" alt="Profile icon of Raccoon Formality" />
+        <img title="Hello" src="logo2-trans.png" alt="Profile icon of Raccoon Formality" />
         <span>Raccoon Formality</span>
     </div>
     <div class="links">
@@ -283,7 +287,7 @@ object-fit: cover;
             <div class="blur"></div>
             
         <a href="https://raccoon-formality.itch.io/heavy-trucking" target="_blank" rel="noopener noreferrer">
-          <img src="screenshots/ht.png" class="front">
+          <img src="screenshots/ht-big.png" class="front">
             <div class="carousel-caption">
                 <h1>Heavy Trucking</h1>
                 <h4>Trucking sim for the Panic Playdate reminiscent of similar games from the mid-90s.</h4>
@@ -296,7 +300,7 @@ object-fit: cover;
             <div class="blur"></div>
             
         <a href="https://raccoon-formality.itch.io/noodles-and-love" target="_blank" rel="noopener noreferrer">
-            <img src="screenshots/n&l.png" class="front">
+            <img src="screenshots/n&l-big.png" class="front">
               <div class="carousel-caption">
                   <h1>Noodles & Love</h1>
                   <h4>Gay furry visual novel dating sim for the Panic Playdate handheld.</h4>
