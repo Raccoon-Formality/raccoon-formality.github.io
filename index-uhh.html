@@ -26,231 +26,25 @@
     <title>Raccoon Formality</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
-<style>
-@font-face {
-    font-family: RaccoonSerif;
-    src: url(font/Inter-Bold.ttf);
-    font-weight: normal;
-}
 
-@font-face {
-    font-family: Sands;
-    src: url(font/Inter-Black.ttf);
-    font-weight: normal;
-}
-
-* {
-    font-family: RaccoonSerif;
-}
-
-.nav .profile span {
-    font-family: Sands !important;
-}
-
-@media only screen and (max-width: 1200px) {
-body {
-width: 90%;
-margin-left: 0;
-zoom: 150%;
-margin-left: 5%;
-}
-.text {
-    width: 100%;
-}
-.nav .profile {
-    float:center;
-}
-.nav .links {
-    float:center;
-    gap: 0.5em;
-}
-.nav {
-    flex-direction: column;
-}
-.nav .profile span {
-font-size: 24pt;
-line-height: normal;
-text-align: left;
-}
-
-.logo {
-width: 50px;
-width: 50px;
-}
-
-.item {
-    height: 360px;
-}
-
-.nav .profile img {
-  height: 80px;
-}
-
-}
-@media only screen and (min-width: 1200px) {
-body {
-width: 60%;
-margin-left: 20%;
-}
-.text {
-    width: 60%;
-}
-.nav .profile {
-    float:left;
-}
-.nav .links {
-    float:right;
-    gap: 2em;
-}
-
-.nav .profile span {
-font-size: 32pt;
-line-height: normal;
-}
-
-.logo {
-width: 40px;
-height: 40px;
-}
-
-.item {
-    height: 720px;
-}
-
-.nav .profile img {
-  height: 120px;
-}
-
-}
-
-
-
-
-
-.nav {
-  justify-content: space-between;
-  display: block;
-}
-
-.nav .profile img {
-  transition: all 0.2s ease-in-out; 
-}
-.nav .profile img:hover { 
-transform: rotate(-15deg); 
-}
-
-.nav .profile,
-.nav .links {
-    margin-top: 15px;
-  display: flex;
-  min-height: 100px;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.nav .profile {
-gap: 1em;
-}
-
-.nav .links {
-    padding: 15px;
-  border-radius: 10px;
-    background-color: black;
-    flex-basis: 25%;
-    flex-wrap: wrap;
-}
-
-.logo {
-vertical-align: middle !important;
-transition: all .2s ease-in-out; 
-}
-.logo:hover { 
-transform: scale(1.25) rotate(10deg); 
-}
-.logo {
-    filter: invert(1);
-}
-
-.blur {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    backdrop-filter: blur(10px);
-    z-index: -1;
-}
-
-.item {
-    background-size: cover;
-}
-.item .front {
-height: 100% !important;
-object-fit: cover;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.item h4 {
-    background-color: black;
-    width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
-}
-.item h1 {
-    background-color: black;
-    width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
-}
-
-.text ul {
-    display: inline-block;
-  text-align: left;
-}
-
-.nav, .tagline {
-    color: black;
-}
-
-.text {
-    color: black;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-</style>
 <body>
 
-<div class="nav">
-    <div class="profile">
-        <img title="Hello" src="logo2-trans.png" alt="Profile icon of Raccoon Formality" />
-        <span>Raccoon Formality</span>
-    </div>
-    <div class="links">
-        <a alt="mastodon" rel="me" href="https://tech.lgbt/@raccoonformality" target="_blank" rel="noopener noreferrer"><img class="logo" src="logos/logo-black.svg"></a>
-        <a alt="itch.io" href="https://raccoon-formality.itch.io/" target="_blank" rel="noopener noreferrer"><img class="logo" src="logos/itchio-textless-black.svg"></a>
-        <a alt="youtube" href="https://www.youtube.com/@raccoon-formality" target="_blank" rel="noopener noreferrer"><img class="logo" src="logos/youtube.svg"></a>
-        <a alt="ko-fi" href="https://ko-fi.com/raccoonformality" target="_blank" rel="noopener noreferrer"><img class="logo" src="logos/ko-fi.svg"></a>
-        <a alt="patreon" href="https://www.patreon.com/RaccoonFormality" target="_blank" rel="noopener noreferrer"><img class="logo" src="logos/patreon.svg"></a>
-        <a alt="github" href="https://github.com/Raccoon-Formality" target="_blank" rel="noopener noreferrer"><img class="logo" src="logos/github.png"></a>
-    </div>
-</div>
-<!--
-<div class="top">
-<img src="images/racc.jpg" class="icon">
-<span class="name">Raccoon Formality</span>
-    
-</div>
--->
+
+<img title="Hello" height="128" width="128" src="logo2-trans.png" alt="Profile icon of Raccoon Formality" />
+<h1>- Raccoon Formality -</h1>
+<h3>
+<ul>
+    <li><a alt="mastodon" rel="me" href="https://tech.lgbt/@raccoonformality" target="_blank" rel="noopener noreferrer">Mastodon</a>    <br></li>
+    <li><a alt="itch.io" href="https://raccoon-formality.itch.io/" target="_blank" rel="noopener noreferrer">itch.io</a>                <br></li>
+    <li><a alt="youtube" href="https://www.youtube.com/@raccoon-formality" target="_blank" rel="noopener noreferrer">YouTube</a>        <br></li>
+    <li><a alt="ko-fi" href="https://ko-fi.com/raccoonformality" target="_blank" rel="noopener noreferrer">Ko-Fi</a>                    <br></li>
+    <li><a alt="patreon" href="https://www.patreon.com/RaccoonFormality" target="_blank" rel="noopener noreferrer">Patreon</a>          <br></li>
+    <li><a alt="github" href="https://github.com/Raccoon-Formality" target="_blank" rel="noopener noreferrer">GitHub</a>                <br></li>
+</ul>
+</h3>
 <div class="tagline" style="width: 100%; float:left;">
-<h2 style="text-align: center;">From each according to his ability, to each according to his needs. 🦝</h2>
+<h1 style="text-align: center;">Fruity Fresh Faggotry</h1>
 <hr>
 <h1 style="text-align: center;"><a href="games/">GAMES</a> - <a href="about/">ABOUT</a> - <a href="blog/">BLOG</a> - <a href="stats/">STATISTICS</a></h1>
 <hr>
